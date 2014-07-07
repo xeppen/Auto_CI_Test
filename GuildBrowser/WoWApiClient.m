@@ -21,6 +21,7 @@ static dispatch_once_t oncePredicate;
 
 - (id)initWithBaseURL:(NSURL *)url
 {
+    
     self = [super initWithBaseURL:url];
     if (!self) {
         return nil;
